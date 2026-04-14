@@ -1,0 +1,24 @@
+{
+  "name": "fin-aura-app",
+  "version": "1.0.0",
+  "main": "public/electron.js",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm:react-start\" \"npm:electron-start\"",
+    "react-start": "react-scripts start",
+    "electron-start": "wait-on http://localhost:3000 && electron .",
+    "build": "react-scripts build",
+    "electron-build": "electron-builder"
+  },
+  "dependencies": {
+    "concurrently": "^8.0.0",
+    "electron": "^28.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.0",
+    "wait-on": "^7.0.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.0.0"
+  }
+}

@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background: rgba(255,255,255,0.8);
+  padding: 2rem 0 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  background: rgba(255,255,255,0.7);
+  margin: 1rem auto;
+  max-width: 600px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 1.5rem;
+}
